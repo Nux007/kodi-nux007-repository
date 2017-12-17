@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="kodi.nux007.repository"
+        name="Kodi Nux007 Repository"
+        version="0.0.1"
+        provider-name="Nux007">
+    <extension point="xbmc.addon.repository" name="Kodi Nux007 addons repository">
+        <checksum>https://github.com/Nux007/kodi-nux007-repository/raw/master/addons_infos/addons.xml.md5</checksum>
+        <info compressed="false">https://github.com/Nux007/kodi-nux007-repository/raw/master/addons_infos/addons.xml</info>
+        <datadir zip="true">https://github.com/Nux007/kodi-nux007-repository/raw/master/addons_releases</datadir>
+        
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Nux007 repo</summary>
+        <description lang="fr">Installer les addons créées par Nux007</description>
+        <summary lang="en">Nux007 repository</summary>
+        <description lang="en">Install addons created by Nux007</description>
+        <platform>all</platform>
+    </extension>
+</addon>
