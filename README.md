@@ -38,7 +38,8 @@ Si vous souhaitez participer aux développements ou soumettre un bug fix ou enco
 
 
 ## Faire un don
-
+Tout don est le bienvenu et est toujours une motivation pour améliorer / développer de nouvelles addons, chacun est libre de choisir le montant de son don et est libre de donner ou de ne pas donner, voici le lien Paypal pour ceux qui souhaitent participer financièrement :
+[Faire un don Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HPVUFHX73MKDE&lc=BE&item_name=Nux007&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
 ## Merci!
 
