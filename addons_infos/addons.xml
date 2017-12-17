@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+    <!-- Super favourites xmltv addon -->
+	<addon id="plugin.program.super.favourites.xmltv" name="Super Favourites Xmltv" version="0.0.1" provider-name="Nux007">
+	    <requires>
+	        <import addon="xbmc.python" version="2.7.0"/>
+	    </requires>
+	    <extension point="xbmc.python.script" library="addon.py">
+	        <provides>executable</provides>
+	    </extension>
+	    <extension point="xbmc.service" library="service.py" start="login" />
+	    
+	    <extension point="xbmc.addon.metadata">
+	        <platform>all</platform>
+	        <summary lang="en">Super Favourites XMLTV maps your Super Favourites iptv links and your xmltv file source</summary>
+	        <summary lang="fr">Super Favourites XMLTV fait le mapping entre vos liens iptv super favourites et votre fichier xmltv</summary>
+	        <description lang="en">SUPER Favourites XMLTV provides a mapping between your iptv link, but 
+	        also provide programs reminders, automatic channels logos download and so on...</description>
+	        <description lang="fr">Super Favourites XMLTV fournit non seulement un mapping entre vos
+	        liens iptv , mais permet aussi les rappels programmes, le chargement automqtique des logos 
+	        des chaines et bien plus encore !</description>
+	    </extension>
+	</addon>
+
+
+	<!-- Nux 007 Repository -->
+	<addon id="kodi.nux007.repository"
+	        name="Kodi Nux007 Repository"
+	        version="0.0.1"
+	        provider-name="Nux007">
+	    <extension point="xbmc.addon.repository" name="Kodi Nux007 addons repository">
+	        <checksum>https://github.com/Nux007/kodi-nux007-repository/raw/master/addons_infos/addons.xml.md5</checksum>
+	        <info compressed="false">https://github.com/Nux007/kodi-nux007-repository/raw/master/addons_infos/addons.xml</info>
+	        <datadir zip="true">https://github.com/Nux007/kodi-nux007-repository/raw/master/addons_releases</datadir>
+	        
+	    </extension>
+	
+	    <extension point="xbmc.addon.metadata">
+	        <summary lang="fr">Nux007 repo</summary>
+	        <description lang="fr">Installer les addons créées par Nux007</description>
+	        <summary lang="en">Nux007 repository</summary>
+	        <description lang="en">Install addons created by Nux007</description>
+	        <platform>all</platform>
+	    </extension>
+	</addon>
+
+
+</addons>
