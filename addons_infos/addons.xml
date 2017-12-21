@@ -45,7 +45,7 @@
 	        <summary lang="fr">Charge vos listes IPTV de manière simple</summary>
 	        <description lang="en">IPTV List loader loads your IPTV lists and update them at kodi startup.
 	        The addon also use regex searches in case of you provider is using one time tokens.</description>
-	        <description lang="fr">Charge vos listes IPTV et les mets à jour au démarrage de kodi
+	        <description lang="fr">Charge vos listes IPTV et les mets à jour au démarrage de kodi.
 	        L'addon permet aussi les recherches par regex au cas ou votre fournisseur utiliserait des tokens</description>
 	    </extension>
 	</addon>  
