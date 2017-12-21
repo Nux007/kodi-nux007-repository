@@ -54,7 +54,7 @@
 	<!-- Nux 007 Repository -->
 	<addon id="kodi.nux007.repository"
 	        name="Kodi Nux007 Repository"
-	        version="0.0.1"
+	        version="0.0.2"
 	        provider-name="Nux007">
 	    <extension point="xbmc.addon.repository" name="Kodi Nux007 Repository">
 	        <checksum>https://github.com/Nux007/kodi-nux007-repository/raw/master/addons_infos/addons.xml.md5</checksum>
