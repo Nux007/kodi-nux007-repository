@@ -26,7 +26,7 @@
 	
 	
 	<!-- IPTV-list-loader -->
-    <addon id="plugin.iptv.list.loader" name="IPTV List loader" version="0.0.1" provider-name="Nux007">
+    <addon id="plugin.iptv.list.loader" name="IPTV List loader" version="0.0.2" provider-name="Nux007">
 	    <requires>
 	        <import addon="xbmc.python" version="2.7.0"/>
 	        <import addon="plugin.video.f4mTester" version="2.7.1" />
