@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.super.favourites.xmltv" name="Super Favourites Xmltv" version="0.0.1" provider-name="Nux007">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login" />
+	
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Super Favourites XMLTV</summary>
+		<description lang="en">
+		Provide an EPG that is a mapping between Super Favourites plugin + IPTV channels + XMLTV of your choice, 
+1) Choose your EPG background image to match your skin
+2) Choose your xmltv location ( url or local )
+3) Choose the target Super Favourites base folder
+4) Start the plugin to automatically create sub folders based on XMLTV channels id's
+5) Populate these folders with your IPTV links ( one sub folder can contains more than one channel link, ensuring stability of your IPTV system )
+6) Your done !
+All financial donation or coding / translation help is welcome, our mail and paypal address : 007.nux@gmail.com
+		</description>
+		<description lang="fr">
+		Fournit un guide EPG qui sert de mapping entre le plugin Super Favourites plugin + vos liens IPTV + vos fichiers XMLTV, 
+1) Choisissez l'image de fond pour correspondre à votre skin
+2) Choisissez le chemin vers votre fichier XMLTV ( url ou local )
+3) Choisissez le chemin du dossier Super Favourites qui sera le dossier parent
+4) Démarrez le plugin pour créer automatiquement les sous dossiers basés sur les id's des chaines du fichier xmltv
+5) Peuplez ces sous dossiers avec vos liens IPTV ( un sous dossier peut contenir plusieurs liens pour une même chaîne, ce qui vous assure une bonne stabilité )
+6) Vous y êtes !
+Tout don financier ou aide en développement et/ou traduction sont les bienvenus 
+Adresse mail et paypal : 007.nux@gmail.com
+		</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source>https://github.com/Nux007/Kodi-Super-Favourites-Xmltv</source>
+		<website></website>
+		<email>007.nux@gmail.com</email>
+		<assets>
+			<icon>icon.png</icon> 
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-1.png</screenshot>
+			<screenshot>resources/screenshot-2.png</screenshot>
+			<screenshot>resources/screenshot-3.png</screenshot>
+		</assets>
+		<news>Addon still in development
+Contributions:
+-----------------
+All kind of contributions are welcome coding / translating / donations ...
+Coding : mail to 007.nux@gmail.com to keep in touch on what is still to develop.
+Translations : mail to 007.nux@gmail.com to know what language you can translate.
+Donations: Any donation is very appreciated and is motivating to continue this plugin development, all donatiors are mentionned with new releases.
+Our Paypal address is : 007.nux@gmail.com
+		</news>
+	</extension>
+</addon>
