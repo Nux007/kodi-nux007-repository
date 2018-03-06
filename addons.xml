@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="nux007.repository"
+        name="Kodi Nux007 Repository"
+        version="0.0.2"
+        provider-name="Nux007">
+    <extension point="xbmc.addon.repository" name="Kodi Nux007 Repository">
+        <checksum>https://github.com/Nux007/kodi-nux007-repository/raw/master/addons.xml.md5</checksum>
+        <info compressed="false">https://github.com/Nux007/kodi-nux007-repository/raw/master/addons.xml</info>
+        <datadir zip="true">https://github.com/Nux007/kodi-nux007-repository/raw/master</datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Nux007 repo</summary>
+        <description lang="fr">Installer les addons Nux007</description>
+        <summary lang="en">Nux007 repository</summary>
+        <description lang="en">Install addons created by Nux007</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.program.super.favourites.xmltv" name="Super Favourites Xmltv" version="0.0.1" provider-name="Nux007">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
@@ -56,60 +75,5 @@ Donations: Any donation is very appreciated and is motivating to continue this p
 Our Paypal address is : 007.nux@gmail.com
 		</news>
 	</extension>
-</addon>
-
-<addon id="plugin.video.iptv.list.loader" name="IPTV List loader" version="0.0.2" provider-name="Nux007">
-
-    <requires>
-        <import addon="xbmc.python" version="2.7.0"/>
-        <import addon="plugin.video.f4mTester" version="2.7.1" />
-        <import addon="script.module.beautifulsoup" version="3.2.1"/>
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.httplib2" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="login" />
-
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">IPTV List Loader, loads your iptv lists</summary>
-        <summary lang="fr">Charge vos listes IPTV de manière simple</summary>
-        <description lang="en">IPTV List loader loads your IPTV lists and update them</description>
-        <description lang="fr">Charge vos listes IPTV et les met à jour</description>
-        <license>Apache v2</license>
-        <language></language>
-        <forum></forum>
-        <source>https://github.com/Nux007/Kodi-IPTV-list-loader</source>
-        <website></website>
-        <email>007.nux@gmail.com</email>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshot-1.png</screenshot>
-            <screenshot>resources/screenshot-2.png</screenshot>
-            <screenshot>resources/screenshot-3.png</screenshot>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="nux007.repository"
-        name="Kodi Nux007 Repository"
-        version="0.0.2"
-        provider-name="Nux007">
-    <extension point="xbmc.addon.repository" name="Kodi Nux007 Repository">
-        <checksum>https://github.com/Nux007/kodi-nux007-repository/raw/master/addons.xml.md5</checksum>
-        <info compressed="false">https://github.com/Nux007/kodi-nux007-repository/raw/master/addons.xml</info>
-        <datadir zip="true">https://github.com/Nux007/kodi-nux007-repository/raw/master</datadir>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="fr">Nux007 repo</summary>
-        <description lang="fr">Installer les addons Nux007</description>
-        <summary lang="en">Nux007 repository</summary>
-        <description lang="en">Install addons created by Nux007</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 </addons>

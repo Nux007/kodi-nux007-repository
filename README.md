@@ -31,12 +31,6 @@ Repo github pour [Super Favourites XMLTV](https://github.com/Nux007/Kodi-Super-F
 
 Dernière version : 0.0.1 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/raw/master/plugin.program.super.favourites.xmltv/plugin.program.super.favourites.xmltv-0.0.1.zip)
 
-### IPTV List loader ###
-Charge, mets à jour, et lis vos sources légales IPTV en évitant les coupures ( f4mtester )
-Repo github pour [IPTV list loader](https://github.com/Nux007/Kodi-IPTV-list-loader)
-
-Dernière version : 0.0.2 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/raw/master/plugin.video.iptv.list.loader/plugin.video.iptv.list.loader-0.0.2.zip)
-
 
 ## Contribuer
 Toute contribution est la bienvenue, toute idée de développement également, n'hésitez pas à tester nos addons en version pre release et à nous donner votre feedback via la page github des addons dont les liens se trouvent ci dessus. Mon anglais n'est pas parfait, si vous souhaitez faire une passe sur une langue ou en ajouter une nouvelle, c'est toujours le bienvenu !! N'hésitez donc pas à vous retrousser les manches :-)
