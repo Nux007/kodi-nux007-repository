@@ -1,0 +1,68 @@
+1.1.2 of 06 / 09 / 2018
+--------------------------
+* Added project contributors.
+* Updated the way the logger works ( more clean ).
+* Log download icons errors instead of displaying an ambiguous message. 
+* SQL query to remove all duplicated entries fro programs table.
+* Fixed a small gui glitch.
+* Fixed channels start + do not refresh epg when a channel stops. Next … 
+* Home made "mutex" for database ( do not start sfx if update or cleanu…
+* Finished channels edit windows
+* Simplified the way to handle channels
+* Moved edit controls inside their own file before changing them.
+* Added sfx owned logger for debug ease.
+* Added an option to disable hard coded epg timeshift + misc cleanup an…
+* Removed now useless max.load param as the db is loaded on the fly.
+* Cleanup program on each start ( as a service ) to keep database smallest as possible.
+* Grid core change ( set program info )
+* Updated splash screen
+* Updated the way to handle programs from db
+* Système de rappels de programmes grandement mis à jour.
+* Fixed a possible update bug.
+* Big channels changes inside code, also started to change programs and reminders.
+* Removed and reorganized some settings in order to simplify addon configuration for users ( based on received feedback ).
+* Fixed local logo selection bug.
+* Big core database requests changes, all request are now handled by one db object.
+* Minor: Fetching new tags from db to view.
+* Moved db connections inside a proper class to avoid not closed connections.
+* Minor : Moved a copy file function inside file helper.
+* Handling new xmltv tags ( epg db only for now ): sub-title, rating, categories, programs icons, credits (actor, director, presenter, writer, editor ... )
+* Handling PG bars cancel buttons
+* Updated progress bars while parsing channels and programs.
+* Speed: Decreased time sleep downloading icons.
+* Minor: EPG and icons download texts update.
+* Update icons only if tey does not exists in update mode.
+* Minor: more infos for downloads progress bars.
+* Oops, minor.
+* Updated programs start and stop regex to also match epg that uses YMD…
+* Chunk downloads to insert a download progress hook ( usefull for bigger epg files )
+* Minor: Python 2.7 _strptime issue on threaded EPG updates.
+* Minor: Default background change to blue and black
+* Moved EpgXml object to its proper file.
+* Minor ( moved db flag channel visibility outside xmltv helper file )
+* Moved xmltv parser inside an helper file.
+* Started moving xmltv function in an helper python file.
+* Added gzip support for xmltv sources.
+* Removed TheLogoDb since website is down.
+* Fixed raw EPG parsing by removing minidom ( still buggy imo )
+* Fixed imports and updated toolbox.py
+* Moved lib/maintenance.py to updaters/toolbox.py
+* Moved settings.py into helpers sub package for readability.
+* Moved strings helper into resource.language package.
+* Started a refactoring before adding functionalities.
+* Added timeshift tune from xmltv
+* Fixed negatives timeshits
+
+
+0.1.2 of 31 / 02 / 2018
+--------------------------
+* Fixed EPG update bug.
+
+0.1.1 of 12 / 02 / 2018
+--------------------------
+* Release candidate
+* Added multi profiles support.
+* Added an option to use existing iptv links SF directory instead of creating them.
+* Utilisation de la commande mise en favoris s'il ne s'agit pas d'un dossier contenant des liens iptv
+
+* N'afficher que les chaines qui ont des liens dans les dossier SF.

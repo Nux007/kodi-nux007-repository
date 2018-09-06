@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.super.favourites.xmltv" name="Super Favourites Xmltv" version="1.1.2" provider-name="Nux007">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login" />
+	
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Super Favourites XMLTV</summary>
+		<description lang="en">
+		Provide a mapping between Super Favourites plugin + IPTV channels + XMLTV of your choice, 
+1) Mandatory: Choose your XMLTV location
+2) Mandatory: Choose your Super Favourites folder that will contain auto created sub folder where you will put your iptv links
+3) Option: Tune options like timezone, etc... ( optional settings tab )
+4) Style: Customize your SFX look and feel ( look and feel tab ).
+5) Add your iptv links to the correct folder ( with super favourites regular addon )
+6) Start the plugin
+
+All contributions are welcome: coding / tests debug / translations / donations, our mail and paypal address : 007.nux@gmail.com
+		</description>
+		<description lang="fr">
+		Fournit un mapping entre le plugin Super Favourites + vos liens IPTV + votre fichier XMLTV, 
+1) Obligatoire: Définissez l'endroit ou se trouve votre fichier XMLTV.
+2) Obligatoire: Choisissez le répertoire Super Favourites qui contiendra les sous répertoires créés automatiquement, ou vous irez placer vos liens iptv.
+3) Optionnel: Affinez vos paramètres de time shift, etc ... ( onglet optionnel )
+4) Style: Customisez le style de la grille epg ( Style )
+5) Peuplez les sous dossiers avec vos liens IPTV ( avec le plugin super favourites régulier )
+6) Vous y êtes !
+Toute contribution est la bienvenue: code/ tests debug / traductions / dons, notre adresse mail et paypal : 007.nux@gmail.com
+		</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source>https://github.com/Nux007/Kodi-Super-Favourites-Xmltv</source>
+		<website></website>
+		<email>007.nux@gmail.com</email>
+		<assets>
+			<icon>icon.png</icon> 
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshot-1.png</screenshot>
+			<screenshot>resources/screenshot-2.png</screenshot>
+			<screenshot>resources/screenshot-3.png</screenshot>
+		</assets>
+		<news>Beta relese 1.1.2 beta 3
+Contributions:
+-----------------
+Thank's to Adulescente for hard testing
+		</news>
+	</extension>
+</addon>
