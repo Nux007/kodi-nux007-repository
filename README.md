@@ -13,7 +13,7 @@ Si vous souhaitez installer une de nos addons, Installez la dernière version de
 ### Nux007 Repository
 Repo Github [Nux007 Repository](https://github.com/Nux007/kodi-nux007-repository)
 
-Dernière version : 0.0.3 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/repo/nux007.repository/nux007.repository-0.0.3.zip?raw=true)
+Dernière version : 0.0.4 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/repo/nux007.repository/nux007.repository-0.0.4.zip?raw=true)
 
 ### Super Favourites XMLTV
 Repo github [Super Favourites XMLTV](https://github.com/Nux007/Kodi-Super-Favourites-Xmltv)
@@ -22,6 +22,12 @@ Dernière version : 1.1.2 [Télécharger](https://github.com/Nux007/kodi-nux007-
 
 [Wiki Super Favourites XMLTV](https://github.com/Nux007/Kodi-Super-Favourites-Xmltv/wiki)
 
+### PlaylistLoader
+Anciennement maintenu par Avigdor.
+
+Repo github [PlaylistLoader](https://github.com/Nux007/Kodi-plugin.video.playlistLoader)
+
+Dernière version : 1.2.1 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/plugin.video.playlistLoader/plugin.video.playlistLoader-1.2.1.zip?raw=true)
 
 
 ## Contribuer
