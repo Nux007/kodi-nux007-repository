@@ -70,9 +70,10 @@ Thank's to Adulescente for hard testing
 	</extension>
 </addon>
 
-<addon id="plugin.video.playlistLoader" name="Playlist Loader" version="1.2.1" provider-name="Avigdor and Nux007">
+<addon id="plugin.video.playlistLoader" name="Playlist Loader" version="1.2.2" provider-name="Avigdor and Nux007">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -84,6 +85,13 @@ Thank's to Adulescente for hard testing
     <description lang="he">Playlist Loader</description>
     <platform>all</platform>
 	<news>
+
+1.2.2
+- Fixed logo error grouping items.
+
+1.2.1.1
+- Fixed missing import
+
 1.2.1
 - Taking ownership of the addon, see : https://github.com/avigdork/xbmc-avigdork/pull/8#issuecomment-416955692
 - Fixed regex => grouping issue when tvg-logo was empty.
