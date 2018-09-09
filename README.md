@@ -15,7 +15,7 @@ Dernière version : 0.0.4 [Télécharger](https://github.com/Nux007/kodi-nux007-
 ### Super Favourites XMLTV
 Repo github [Super Favourites XMLTV](https://github.com/Nux007/Kodi-Super-Favourites-Xmltv)
 
-Dernière version : 1.1.2 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/plugin.program.super.favourites.xmltv/plugin.program.super.favourites.xmltv-1.1.2.zip)
+Dernière version : 1.1.2 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/plugin.program.super.favourites.xmltv/plugin.program.super.favourites.xmltv-1.1.2.zip?raw=true)
 
 [Wiki Super Favourites XMLTV](https://github.com/Nux007/Kodi-Super-Favourites-Xmltv/wiki)
 
