@@ -5,20 +5,17 @@ Toutes les addons disponibles dans ce repository ont été développées pour le
 
 En téléchargant et en utilisant nos addons, vous vous engagez à respecter la loi en vigeur dans votre pays en ce qui concerne les droits d'auteurs et ou de diffusion, ne fournissant AUCUN contenu, nous ne pourrons être tenus responsables de l'utilisation que vous faites de nos addons dans le sens ou nous ne distribuons aucun contenu illégal et n'hébergons aucun lien susceptible d'être qualifié comme tel.
 
-## Installation d'une addon
-Si vous souhaitez installer une de nos addons, Installez la dernière version de notre repository:
-[nux007.repository-0.0.3.zip](https://github.com/Nux007/kodi-nux007-repository/blob/master/repo/nux007.repository/nux007.repository-0.0.3.zip?raw=true)
-
 ## Actuellement disponibles dans le repository:
 ### Nux007 Repository
 Repo Github [Nux007 Repository](https://github.com/Nux007/kodi-nux007-repository)
 
-Dernière version : 0.0.4 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/repo/nux007.repository/nux007.repository-0.0.4.zip?raw=true)
+Dernière version : 0.0.4 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/nux007.repository/nux007.repository-0.0.4.zip?raw=true)
+
 
 ### Super Favourites XMLTV
 Repo github [Super Favourites XMLTV](https://github.com/Nux007/Kodi-Super-Favourites-Xmltv)
 
-Dernière version : 1.1.2 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/repo/plugin.program.super.favourites.xmltv/plugin.program.super.favourites.xmltv-1.1.2.zip?raw=true)
+Dernière version : 1.1.2 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/plugin.program.super.favourites.xmltv/plugin.program.super.favourites.xmltv-1.1.2.zip)
 
 [Wiki Super Favourites XMLTV](https://github.com/Nux007/Kodi-Super-Favourites-Xmltv/wiki)
 
@@ -27,7 +24,7 @@ Anciennement maintenu par Avigdor.
 
 Repo github [PlaylistLoader](https://github.com/Nux007/Kodi-plugin.video.playlistLoader)
 
-Dernière version : 1.2.1 [Télécharger](https://github.com/Nux007/kodi-nux007-repository/blob/master/plugin.video.playlistLoader/plugin.video.playlistLoader-1.2.1.zip?raw=true)
+Dernière version : 1.2.1.1 [Télécharger](https://github.com/Nux007/Kodi-plugin.video.playlistLoader/archive/v1.2.1.1.zip)
 
 
 ## Contribuer
